@@ -301,8 +301,7 @@
   .hero {
     width: 100%;
     height: clamp(340px, 40vh, 500px);
-    background: url('../img/hammer-bg.jpg') no-repeat;
-    background-size: cover;
+    background: center / cover url('../img/hammer-bg.jpg') no-repeat;
     color: white;
     text-shadow: #222;
     display: flex;
